@@ -1,0 +1,14 @@
+
+<html>
+    
+    <body>
+        
+        <h1>Hellooooow  {{name}}</h1>
+        hi . this is {{time}}.
+           <ul>
+      {% for item in news_items %}
+        <li><a href="/news/{{ item.id }}/">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+    </body>
+</html>
