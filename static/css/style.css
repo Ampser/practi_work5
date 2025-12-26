@@ -1,0 +1,42 @@
+h1 {
+  background: #888888;
+  padding: 20px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.news-items {
+  margin: 10px 0;
+}
+
+#main_news_list .news-items {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 5px;
+}
+
+#main_news_list a {
+  text-decoration: underline;
+  color: blue;
+}
+
+#main_news_list .active {
+  background: green;
+}
+
+#main_news_list .active a {
+  color: white;
+  font-weight: bold;
+}
+
+.highlight {
+  background: yellow;
+  color: red;
+  font-weight: bold;
+}
+
+
+.red {
+  color: red;
+  font-weight: bold;
+}
